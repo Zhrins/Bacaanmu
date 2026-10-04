@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUA CERITA — Web Novel Interaktif</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<header id="topbar">
+  <div class="topbar-left">
+    <button class="icon-btn" id="btn-back" title="Kembali ke Perpustakaan">←</button>
+    <button class="icon-btn" id="btn-toc" title="Daftar Isi">☰</button>
+    <span class="topbar-brand" id="topbar-title">DUA <span>Cerita</span></span>
+  </div>
+  <div class="topbar-right">
+    <button class="icon-btn" id="btn-music">♪</button>
+    <button class="icon-btn" id="btn-settings">Aa</button>
+    <button class="icon-btn" id="btn-theme-quick">◐</button>
+  </div>
+</header>
+
+<div id="toc-overlay"></div>
+<aside id="toc">
+  <div class="toc-header">
+    <div><h3 id="toc-title">Daftar Isi</h3><p id="toc-subtitle">—</p></div>
+    <button class="icon-btn" id="toc-close">✕</button>
+  </div>
+  <nav class="toc-body" id="toc-body"></nav>
+</aside>
+
+<!-- ============================================
+     HALAMAN PERPUSTAKAAN (Library)
+     ============================================ -->
+<section id="library">
+  <div class="library-inner">
+    <p class="library-eyebrow">DUA CERITA · WEB NOVEL INTERAKTIF</p>
+    <h1 class="library-title">
+      Pilih <span>Ceritamu</span>
+    </h1>
+    <p class="library-sub">
+      Dua kisah tentang cinta, jarak, dan waktu.<br>
+      Masing-masing dengan luka dan kehangatannya sendiri.
+    </p>
+
+    <div class="library-grid" id="library-grid"></div>
+
+    <p class="library-hint">Klik sampul untuk mulai membaca · Tekan ♪ untuk suasana</p>
+  </div>
+</section>
+
+<!-- ============================================
+     HALAMAN COVER NOVEL
+     ============================================ -->
+<section id="cover" style="display:none;">
+  <div class="cover-inner">
+    <p class="cover-eyebrow" id="cover-eyebrow">NOVEL INTERAKTIF · 2026</p>
+    <h1 class="cover-title">
+      <span class="cover-179" id="cover-big">177</span>
+      <span class="cover-hari" id="cover-small">HARI</span>
+    </h1>
+    <p class="cover-sub" id="cover-sub">—</p>
+
+    <div class="cover-rating">
+      <div class="rating-score">
+        <span class="big" id="global-score">4,2</span>
+        <span class="small">/ 5</span>
+      </div>
+      <div class="rating-stars" id="global-stars">★★★★☆</div>
+      <p class="rating-meta"><span id="global-count">1.247</span> pembaca memberi rating</p>
+    </div>
+
+    <div class="rate-widget">
+      <p class="rate-label">Beri rating novel ini</p>
+      <div class="rate-stars" id="user-rate-stars">
+        <span class="rate-star" data-value="1">★</span>
+        <span class="rate-star" data-value="2">★</span>
+        <span class="rate-star" data-value="3">★</span>
+        <span class="rate-star" data-value="4">★</span>
+        <span class="rate-star" data-value="5">★</span>
+      </div>
+      <p class="rate-feedback" id="user-rate-feedback"></p>
+    </div>
+
+    <div class="cover-route" id="cover-route">
+      <span class="city" id="route-city-1">—</span>
+      <span class="arrow">→</span>
+      <span class="km" id="route-km">—</span>
+      <span class="arrow">→</span>
+      <span class="city" id="route-city-2">—</span>
+    </div>
+    <button class="cover-btn" onclick="document.getElementById('chapter-1').scrollIntoView()">
+      Mulai Membaca <span>↓</span>
+    </button>
+    <p class="cover-hint">SCROLL UNTUK MEMBACA</p>
+  </div>
+</section>
+
+<!-- ============================================
+     CONTAINER ISI NOVEL
+     ============================================ -->
+<main id="novel"></main>
+
+<button id="to-top" title="Kembali ke atas">↑</button>
+
+<div id="settings">
+  <div class="settings-group">
+    <span class="settings-label">Ukuran</span>
+    <button class="size-btn" data-size="small">A</button>
+    <button class="size-btn" data-size="medium">A</button>
+    <button class="size-btn" data-size="large">A</button>
+  </div>
+  <div class="settings-divider"></div>
+  <div class="settings-group">
+    <span class="settings-label">Tema</span>
+    <button class="theme-btn" data-theme="dark">🌙</button>
+    <button class="theme-btn" data-theme="sepia">📜</button>
+    <button class="theme-btn" data-theme="light">☀</button>
+  </div>
+</div>
+
+<audio id="audio-warmness" loop>
+  <source src="https://actions.google.com/sounds/v1/ambiences/forest_ambience.ogg" type="audio/ogg">
+</audio>
+<audio id="audio-tawa">
+  <source src="https://actions.google.com/sounds/v1/human_voices/woman_laugh.ogg" type="audio/ogg">
+</audio>
+
+<!-- LOAD NOVEL DATA -->
+<script src="novels/177-hari.js"></script>
+<script src="novels/365-hari.js"></script>
+<script src="script.js"></script>
+
+</body>
+  </html>
