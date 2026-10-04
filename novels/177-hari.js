@@ -11,7 +11,7 @@ window.NOVEL_177_HARI = {
   subtitle: 'Sebuah kisah tentang jarak, kode, dan cinta<br>yang terlalu besar untuk ditahan.',
   location: 'Bandung ↔ Pangandaran',
   baseRating: 4.2,
-  baseCount: 1247,
+  baseCount: 13,
   parts: 5,
   endLabel: 'Tamat',
   route: { from: 'Bandung', distance: '179 KM', to: 'Pangandaran' },
@@ -24,7 +24,7 @@ window.NOVEL_177_HARI = {
     {
       part: 'Bagian I · Dunia yang Bising',
       numLabel: 'Bab 1 · Hari ke-1',
-      title: 'Hari Pertama — 179 km dan Garis yang Bergeser',
+      title: 'Garis yang Bergeser',
       tocTitle: 'Hari Pertama — 179 km',
       endLabel: 'Bersambung',
       content: [
@@ -351,11 +351,11 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 4 · Hari ke-45',
-      title: 'Dua Layar, Dua Dunia & Tekanan Nyata',
+      title: 'Dua Layar, Dua Dunia',
       tocTitle: 'Dua Layar, Dua Dunia',
       endLabel: 'Bersambung',
       content: [
-        { type:'pov', text:'POV Sakra' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Kelas XII IPA 3 SMAN 90 Bandung selalu bising di jam istirahat. Suara tawa, suara kursi bergeser, suara anak-anak yang berebut charger di colokan belakang—semua bercampur menjadi satu simfoni kekacauan yang sudah biasa Sakra dengar. Biasanya, ia bisa menyaring suara-suara itu. Tapi hari ini, Sakra tidak mendengar apa-apa.' },
         { type:'p', text:'Ia duduk di kursinya, menatap buku fisika yang terbuka di meja, tapi matanya tidak fokus. Kepalanya berat. Tubuhnya lemas. Dan hidungnya... hidungnya terasa hangat.' },
         { type:'p', text:'"Ra, lu mimisan!"' },
@@ -401,7 +401,7 @@ window.NOVEL_177_HARI = {
         { type:'p', text:'"Penting apa?" tanya Habib, suaranya pelan.' },
         { type:'p', text:'Sakra tidak menjawab. Ia hanya menunduk, menatap lantai kantin yang penuh dengan remah-remah makanan.' },
         { type:'scene' },
-        { type:'pov', text:'POV Tasya' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Di SMAN 81 Pangandaran, koridor OSIS selalu sunyi di jam istirahat. Hanya ada beberapa anak yang duduk di depan pintu, menunggu rapat yang akan dimulai pukul satu.' },
         { type:'p', text:'Tasya duduk di sudut, menatap HP-nya. Ada notifikasi dari aplikasi pengiriman makanan—ojol dari Bandung. Lagi. Ini adalah ketiga kalinya dalam minggu ini.' },
         { type:'p', text:'"Tasya, ada paket lagi?" tanya Rian yang kebetulan lewat, membawa tumpukan kertas di tangannya.' },
@@ -430,7 +430,7 @@ window.NOVEL_177_HARI = {
         ]},
         { type:'p', text:'Tasya menutup mulutnya. Ia ingin tersenyum. Ia ingin menangis. Ia ingin... sesuatu. Tapi ia tidak tahu apa.' },
         { type:'scene' },
-        { type:'pov', text:'POV Sakra' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Pulang sekolah, Sakra langsung menuju kamarnya. Ia tidak makan. Ia tidak mandi. Ia hanya duduk di depan komputernya dan mulai bekerja.' },
         { type:'p', text:'Tapi belum sampai lima menit, ponselnya bergetar. Notifikasi dari Pembina Pramuka.' },
         { type:'chat', lines:[
@@ -470,7 +470,7 @@ window.NOVEL_177_HARI = {
       tocTitle: 'Cemburu di Braga',
       endLabel: 'Bersambung',
       content: [
-        { type:'pov', text:'POV Tasya' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Sore itu, Pantai Pangandaran terlihat seperti lukisan yang belum selesai. Langit jingga keemasan, ombak yang tenang, dan angin laut yang membawa aroma asin dan pasir basah. Tasya berdiri di tepi pantai bersama keluarga dan beberapa rekan OSIS yang ikut dalam acara liburan akhir semester.' },
         { type:'p', text:'Termasuk Rian.' },
         { type:'p', text:'Tasya tidak tahu apakah Rian sengaja ikut acara keluarga ini, atau apakah kehadirannya memang sudah direncanakan. Yang ia tahu, Rian berdiri tidak jauh darinya, dengan kamera di tangan, sesekali memotret pemandangan.' },
@@ -494,7 +494,7 @@ window.NOVEL_177_HARI = {
         { type:'p', text:'<em>"Ra, please."</em>' },
         { type:'p', text:'Tidak ada balasan. Tasya menunggu sebentar, lalu mematikan data selulernya.' },
         { type:'scene' },
-        { type:'pov', text:'POV Sakra' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Di Jalan Braga, Bandung, malam itu terasa lebih dingin dari biasanya. Lampu-lampu jalan yang berwarna kuning tua menerangi trotoar batu yang sudah berumur ratusan tahun. Kafe-kafe kecil di sepanjang jalan masih buka, dengan musik jazz yang mengalun pelan dari dalam.' },
         { type:'p', text:'Sakra duduk di salah satu kafe bersama Indra dan Habib, tapi pikirannya jauh—179 kilometer ke arah tenggara.' },
         { type:'p', text:'Ia menatap layar HP-nya. Pesan terakhir Tasya: <em>"Ra, please."</em>' },
@@ -534,7 +534,7 @@ window.NOVEL_177_HARI = {
         { type:'p', text:'Sakra menatap Indra. Kata-kata itu—sederhana, tapi menusuk.' },
         { type:'p', text:'Ia menatap layar HP-nya lagi. <em>Project_179.</em> Mungkin sudah waktunya.' },
         { type:'scene' },
-        { type:'pov', text:'POV Tasya' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Malam itu, setelah semua orang tidur, Tasya duduk di beranda rumahnya di Pangandaran. Udara malam terasa dingin, dan kabut mulai turun dari perbukitan di kejauhan.' },
         { type:'p', text:'Ia menyalakan kembali data selulernya. Ada tiga pesan dari Sakra.' },
         { type:'chat', lines:[
@@ -577,8 +577,8 @@ window.NOVEL_177_HARI = {
     {
       part: 'Bagian II · Badai & Puncak Kebahagiaan',
       numLabel: 'Bab 6 · Hari ke-75',
-      title: 'Garis Kode dan Pengorbanan Fisik',
-      tocTitle: 'Garis Kode & Pengorbanan',
+      title: 'Garis Kodek',
+      tocTitle: 'Garis Kode',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Pukul 02.14 WIB. Bandung sudah lama tertidur, tapi di sebuah kamar berukuran tiga kali empat meter di kawasan Antapani, sebuah monitor masih menyala terang. Cahayanya memantulkan bayangan-bayangan aneh di dinding yang penuh poster, dan menerangi meja yang penuh dengan cangkir kopi kosong.' },
@@ -658,8 +658,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 7 · Hari ke-90',
-      title: 'Suara Tawa yang Disimpan dalam Kode',
-      tocTitle: 'Suara Tawa dalam Kode',
+      title: ' Tawa dalam Kode',
+      tocTitle: 'Suara dalam Kode',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Sanggar Pramuka SMAN 90 Bandung selalu punya aroma khas—bau kayu, bau cat, dan bau tanah yang menempel di dinding-dinding tuanya. Sore itu, Sakra duduk di sudut ruangan, ditemani laptop yang ia bawa dari rumah. Di sekitarnya, beberapa anggota Pramuka sedang berlatih tali-temali. Tapi Sakra tidak mendengarnya. Ia hanya fokus pada layar.' },
@@ -818,8 +818,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 9 · Hari ke-100',
-      title: 'Titik Terendah Sakra dan Suara Tasya di Ujung Telepon',
-      tocTitle: 'Titik Terendah Sakra',
+      title: 'Titik Terendah Sakra',
+      tocTitle: 'Titik Terendah',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Hari ke-100. Seratus hari sejak Sakra menyadari perasaannya. Seratus hari sejak <em>Project_179</em> dimulai. Seratus hari yang diisi dengan begadang, kerja keras, dan mimpi yang belum selesai.' },
@@ -867,8 +867,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 10 · Hari ke-110',
-      title: 'Pulang Kampung: Ketupat Lebaran, Trea, dan Keliling Bandung',
-      tocTitle: 'Pulang Kampung & Keliling Bandung',
+      title: 'Antara Ketupat Dan Senja',
+      tocTitle: 'Dan Bandung',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Lebaran tiba. Bandung berubah menjadi kota yang lebih sunyi—jalanan lengang, toko-toko tutup, dan suara takbir berkumandang dari masjid-masjid di setiap sudut. Bau ketupat dan opor ayam menyeruak dari rumah-rumah yang pintunya terbuka lebar, menerima tamu dengan senyum.' },
@@ -1062,8 +1062,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 11 · Hari ke-115',
-      title: 'Tasya Kembali ke Pangandaran & Kolapsnya Sakra',
-      tocTitle: 'Kolapsnya Sakra',
+      title: 'Kolapsnya semesta',
+      tocTitle: 'Kolapsnya',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Hari itu, langit Bandung berwarna kelabu—bukan karena hujan, tapi karena awan yang menggantung rendah, seperti selimut yang menutupi kota. Stasiun Hall, tempat Tasya akan berangkat kembali ke Pangandaran, dipenuhi orang-orang yang baru selesai mudik. Suara kereta yang datang dan pergi, suara pengumuman yang bergema, dan suara tangis anak-anak yang tidak ingin berpisah dari kakek nenek mereka—semua bercampur menjadi simfoni perpisahan yang sudah terlalu sering didengar.' },
@@ -1129,7 +1129,7 @@ window.NOVEL_177_HARI = {
     },
 
     // ==========================================================
-    // BAB 12 — Malam Sebelum Pengakuan
+    // 12 — Malam Sebelum Pengakuan
     // ==========================================================
     {
       part: null,
@@ -1191,7 +1191,7 @@ window.NOVEL_177_HARI = {
       tocTitle: 'Tautan Pengubah Status',
       endLabel: 'Bersambung',
       content: [
-        { type:'pov', text:'POV Tasya' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Pukul 20.00 WIB. Pangandaran sudah gelap. Hanya suara ombak yang terdengar dari kejauhan—suara yang sudah menjadi lagu pengantar tidur bagi Tasya sejak kecil. Ia duduk di kamarnya, menatap layar laptop. Ia sedang mengerjakan tugas—tugas biologi tentang ekosistem pantai, yang seharusnya menarik, tapi terasa membosankan karena pikirannya melayang ke tempat lain.' },
         { type:'p', text:'Ia memikirkan Sakra—yang beberapa hari lalu pingsan. Ia memikirkan Trea—yang mengatakan bahwa Sakra sedang mempersiapkan sesuatu.' },
         { type:'p', text:'<em>Sesuatu apa?</em>' },
@@ -1227,7 +1227,7 @@ window.NOVEL_177_HARI = {
           { from:'SAKRA', text:'Iya buat jadi pacar gue.' }
         ]},
         { type:'scene' },
-        { type:'pov', text:'POV Sakra' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Sakra menatap layar HP-nya. Jantungnya berdebar kencang. Ia sudah mengirim pesan itu. Pesan yang selama dua tahun ia sembunyikan. Pesan yang selama 122 hari ia perjuangkan.' },
         { type:'p', text:'<em>"Iya buat jadi pacar gue."</em>' },
         { type:'p', text:'Hening. Lima detik. Sepuluh detik. Lima belas detik. Waktu terasa berhenti—seperti dunia yang menahan napas, menunggu jawaban.' },
@@ -1312,10 +1312,10 @@ window.NOVEL_177_HARI = {
     // BAB 15 — Bunga Digital dan Peringatan Trea
     // ==========================================================
     {
-      part: 'Bagian III · Bara Euforia & Benturan Realita',
+      part: 'Bagian III · Euforia Dan Fakta',
       numLabel: 'Bab 15 · Hari ke-125',
-      title: 'Bunga Digital dan Peringatan dari Trea',
-      tocTitle: 'Bunga Digital & Peringatan Trea',
+      title: 'Euforia',
+      tocTitle: 'Euforia',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Tiga hari setelah resmi jadian, Sakra membombardir Tasya dengan hadiah. Bukan karena Tasya memintanya. Bukan karena ada momen khusus yang harus dirayakan. Tapi karena Sakra tidak tahu cara lain untuk mengungkapkan apa yang ia rasakan. Setiap kali ia merasa bahagia—dan akhir-akhir ini, ia merasa bahagia terus—ia ingin memberikan sesuatu. Sesuatu yang nyata. Sesuatu yang bisa Tasya pegang, lihat, dan rasakan.' },
@@ -1389,7 +1389,7 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 16 · Hari ke-132',
-      title: 'Rian dan Tuduhan yang Menyakitkan',
+      title: 'Rian',
       tocTitle: 'Rian & Tuduhan yang Menyakitkan',
       endLabel: 'Bersambung',
       content: [
@@ -1453,7 +1453,7 @@ window.NOVEL_177_HARI = {
       tocTitle: 'Jurang Ketimpangan',
       endLabel: 'Bersambung',
       content: [
-        { type:'pov', text:'POV Tasya' },
+        { type:'pov', text:'.' },
         { type:'p', text:'Hari ulang tahun Sakra tiba. Tasya duduk di kamarnya, menatap layar HP-nya. Ia ingin memberi sesuatu yang istimewa—sesuatu yang layak untuk seseorang yang telah memberikan segalanya. Tapi uang jajannya terbatas. Ia tidak punya tabungan. Ia tidak punya barang berharga. Ia tidak punya apa-apa.' },
         { type:'p', text:'Akhirnya, ia membuat video ucapan sederhana. Ia merekam dirinya sendiri—dengan kaus oblong, rambut diikat asal, tanpa make up. Ia mengucapkan selamat ulang tahun. Ia mendoakan Sakra. Ia mengatakan bahwa ia sayang. Ia mengatakan bahwa ia bersyukur memiliki Sakra dalam hidupnya. Lalu ia mengirim video itu.' },
         { type:'chat', lines:[
@@ -1493,8 +1493,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 18 · Hari ke-145',
-      title: 'Pengakuan yang Menyesakkan Dada',
-      tocTitle: 'Pengakuan yang Menyesakkan Dada',
+      title: 'Pengakuan',
+      tocTitle: 'Pengakuan',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Pukul 21.00 WIB, Sakra menelepon Tasya.' },
@@ -1638,8 +1638,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 21 · Hari ke-160',
-      title: 'Pesan yang Tak Pernah Terkirim',
-      tocTitle: 'Pesan yang Tak Pernah Terkirim',
+      title: 'Draft Teks',
+      tocTitle: 'Pesan Draft',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Meja belajar Sakra selalu penuh dengan buku. Tapi malam itu, hanya ada satu benda di atasnya: ponsel. Di luar jendela, kota Bandung sudah tidur. Hanya ada suara hujan yang turun pelan, dan lampu jalan yang menerangi trotoar dengan cahaya kuning tua.' },
@@ -1792,8 +1792,8 @@ window.NOVEL_177_HARI = {
     {
       part: null,
       numLabel: 'Bab 24 · Hari ke-169',
-      title: 'Keputusan Berat dan Melodi So Far Away',
-      tocTitle: 'Keputusan Berat & So Far Away',
+      title: 'Melodi So Far Away',
+      tocTitle: 'Melodi So Far Away',
       endLabel: 'Bersambung',
       content: [
         { type:'p', text:'Hari ke-169.' },
